@@ -9416,7 +9416,7 @@ button.close {
   color: white; }
 
 /* line 35, /Users/amandinecoster/stylus/source/stylesheets/layout/_utilities.css.scss */
-.card {
+body {
   font-weight: 300; }
 
 /* line 1, /Users/amandinecoster/stylus/source/stylesheets/pages/_home.css.scss */
@@ -9431,6 +9431,18 @@ button.close {
 /* line 11, /Users/amandinecoster/stylus/source/stylesheets/pages/_home.css.scss */
 #news-letter h2 {
   font-size: 30px; }
+
+/* line 16, /Users/amandinecoster/stylus/source/stylesheets/pages/_home.css.scss */
+.testimonial {
+  background-color: white;
+  color: #333333;
+  padding: 40px;
+  box-shadow: 1px 1px 3px #278D74;
+  margin: 10px; }
+  /* line 22, /Users/amandinecoster/stylus/source/stylesheets/pages/_home.css.scss */
+  .testimonial img {
+    width: 40%;
+    margin: 0 auto; }
 
 /*
 ==============================================
