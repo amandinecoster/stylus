@@ -9331,22 +9331,29 @@ button.close {
     height: 50px;
     padding: 0px; }
   /* line 98, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon a.navbar-brand {
+    position: relative; }
+    /* line 100, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-wagon a.navbar-brand i {
+      position: absolute;
+      bottom: 30%; }
+  /* line 106, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+  /* line 114, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+  /* line 120, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+  /* line 125, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9366,10 +9373,10 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+  /* line 148, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 143, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
+  /* line 151, /Users/amandinecoster/stylus/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: white;
