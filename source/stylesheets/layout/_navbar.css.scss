@@ -94,6 +94,14 @@ $navbar-profile-border-width: 2px;
     padding: 0px;
   }
 
+  a.navbar-brand{
+    position: relative;
+    i{
+      position: absolute;
+      bottom: 30%;
+    }
+  }
+
   .img-avatar{
     border: $navbar-profile-border-width solid $navbar-profile-border-color;
     box-shadow: 0 0 2px rgb(200, 200, 200);
