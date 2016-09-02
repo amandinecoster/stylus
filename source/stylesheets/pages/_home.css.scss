@@ -2,6 +2,7 @@
   background-image: image-url("background.jpg");
   padding: 150px 0;
   color: #fff;
+  background-size: cover;
   h1{
     font-family: $gotham;
   }
@@ -23,4 +24,9 @@
     width: 40%;
     margin: 0 auto;
   }
+}
+
+.column {
+  background-color:
+    #ccc;
 }
